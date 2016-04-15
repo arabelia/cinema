@@ -1,0 +1,57 @@
+/* ayuda para mostrar todos los esppacios, al final se debe borrar */
+*{outline:1px solid rgba(255,0,0,0.3);}
+
+body{font-family: Arial;
+background: linear-gradient(to right, #FAF8F5 , #E6E6E6);}
+	/*
+	background: radial-gradient(red, green, blue);
+
+	*/
+
+.header{width: 100%; color: #BDBDBD;}
+.header .logo{max-width: 100%;}
+
+.container{background: #fff; padding: 40px 0px; width: 100%;}
+.col-6{padding: 10px 50px;}
+.baner{ width: 100%; background-color: #3A3939; color: #B0AEAE; font-size: 10px;
+	/*background-img:url('../img/banner.jpg');*/
+	/*los dos puntos indcian q suba de un nivel (si fueran dos ../../carpeta contenedora/)y luego se especifica la carpeta*/
+}
+.baner img{max-width: 100%; }
+.baner h3 {font-size: 30px; border-bottom: 2px solid #9A9696; padding: 15px 5px 15px 0px;}
+.borde-verde{border-radius: 4px; border: 2px solid #65E127; margin: 10px 0;  width: 30%; height: 25px; display: inline-block; text-align: center; padding-top: 2px;}
+
+.peliculas{background: #F7BE22; position: relative; margin: auto;}
+.peli{ margin: 15px 5px; width: 15%; display: inline-block;}
+.peli img{width: 100%; height: 15em;}
+.trailer{}
+
+
+
+.estilo-boton1{border-radius: 8px; background-color: #D49D1C; text-align: center; padding: 15px; color: #fff; font-size: 12px; border: none;}
+.estilo-boton2{width: 60%; border-radius: 4px; background-color: #F7BE22; text-align: center; padding: 10px; color: #fff; font-size: 10px; border: none; margin-left: 2%;}
+.estilo-boton3{width: 60%; border-radius: 4px; background-color: #D49D1C; text-align: center; padding: 10px; color: #fff; font-size: 10px; border: none; margin-left: 2%;}
+
+
+.texto-11{font-size: 11px;}
+.texto-9{font-size: 9px;}
+.color1{color: #9C6B3D;}
+.mas-noticias{text-decoration: none; color: #D49D1C; font-size: 12px; padding: 15px 0px;}
+
+.sin-estilo{margin: 0px; padding: 0px; list-style: none;}
+.sin-estilo li{padding: 15px 0px;}
+.sin-estilo .linea-baja{border-bottom: 1px solid #E8DFD7;}
+
+.cartelera{margin: 15px 0px; overflow: hidden; height: 280px;}
+.cartelera li {width: 23.5%; display: inline-block; margin: 0 3px; }
+/*.cartelera div{width: 24%; height: 280px;}*/
+.cartelera img{ width: 100%; height: 20em;}
+
+.mgl-2{margin-left: 2%;}
+.pdl-2{padding-left: 2%;}
+.pdt-4{padding-top: 4%;}
+.pdb-7{padding-bottom: 7%}
+.pdt-7{padding-top: 7%}
+.en-linea{display: inline-block;}
+
+
